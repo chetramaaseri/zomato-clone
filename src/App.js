@@ -1,8 +1,8 @@
+import React from "react";
+import HomePage from "./pages/homePage";
 function App() {
   return (
-    <>
-    <h1>Cheeku is Awesome</h1>
-    </>
+    <HomePage/>
   );
 }
 
