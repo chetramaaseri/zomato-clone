@@ -1,0 +1,15 @@
+.filters {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    gap: 15px;
+}

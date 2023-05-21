@@ -1,10 +1,12 @@
 import React from "react";
 import "./header.css";
+import TabSwitch from "./tabSwitch";
+import Filter from "./filter";
 
 function Header(){
     return (
         <>
-        <div className="headNav">
+        <div className="container headNav">
             <div className="logo">
                 <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="" srcset="" />
             </div>
@@ -25,6 +27,8 @@ function Header(){
                 <button className="btn">Signup</button>
             </div>
         </div>
+        <TabSwitch/>
+        <Filter/>
         </>
     );
 }

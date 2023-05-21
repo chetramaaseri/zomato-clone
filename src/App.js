@@ -2,7 +2,9 @@ import React from "react";
 import HomePage from "./pages/homePage";
 function App() {
   return (
-    <HomePage/>
+    <div className="container-fluid">
+      <HomePage/>
+    </div>
   );
 }
 

@@ -7,8 +7,6 @@ function HomePage(){
     return (
         <>
         <Header/>
-        <h1>I am Home</h1>
-        <Footer/>
         </>
     );
 }
