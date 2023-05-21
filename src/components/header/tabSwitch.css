@@ -1,0 +1,51 @@
+.tabSwitch{
+    display: flex;
+    height: 6rem;
+    margin-top: 1rem;
+}
+.tab{
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+.tab::after{
+    content: "";
+    height: 2px;
+    background-color: red;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.tab:focus::after,
+.tab:hover::after{
+    transform: scaleX(1);
+}
+.tabImage{
+    width: auto;
+    border-radius: 50%;
+    background: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.tabImage img{
+    height: 25px;
+    width: 25px;
+}
+.tabText{
+    font-size: 1.2rem;
+    color: rgb(105, 105, 105);
+}
+.tabBorder{
+    height: 2px;
+    background: rgb(248, 248, 248);
+}
